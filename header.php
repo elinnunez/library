@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type ="text/css" href="style.css">
-    </head>
-        <body>
-            <nav>
-                <div class="inner_header">
-                    <div class="logo_container">
-                        <h1>Library Database </h1>
-                    </div>
-                    <ul class = "navigation">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="catalog.php">Catalog</a></li>
-                        <li><a href="login.php">Login</a></li>
-                        <li><a href="signup.php">Sign Up</a></li>
-                        <li><a href="about.php">About</a></li>
-                    </ul>
-                </div>
-            </nav>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="header-top">
+      <h1>Team 1: Library Database</h1>
+    </div>
+    <div class="header" id="myHeader">
+      <button class="button buttonHome" onclick="location.href='index.php';">HOME</button>
+			<button class="button buttonCatalog" onclick="location.href='catalog.php';">CATALOG</button>
+			<button class="button buttonLogin" onclick="location.href='login.php';">LOGIN</button>
+      <button class="button buttonSignup" onclick="location.href='signup.php';">SIGNUP</button>
+			<button class="button buttonAbout" onclick="location.href='about.php';">ABOUT</button>
+    </div>
                         
