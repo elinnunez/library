@@ -23,7 +23,7 @@ List of jobs to accomplish (NOT ALL NEED TO BE FINISHED TO SATISFY CHECKPOINT 3)
 
 		. Log/Sign up - (Completed)
 		. Home Page   - (Completed)
-		. About Page  - (OPEN)
+		. About Page  - (WIP)
 		. Catalog     - (WIP)
 		. Admin Dash  - (WIP)
 		. User Dash   - (WIP)
