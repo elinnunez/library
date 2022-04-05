@@ -37,7 +37,7 @@ List of jobs to accomplish (NOT ALL NEED TO BE FINISHED TO SATISFY CHECKPOINT 3)
 		.Catalog Book Request     - (OPEN)
 		.User Dashboard Elements  - (OPEN)
 		.Admin Dashboard Elements - (WIP)
-		.Adding Triggers          - (OPEN)
+		.Adding Triggers          - (WIP)
 
 	Hosted Server Set Up              - (OPEN) *Hunter will try to start working on this during the weekend otherwise
 	
