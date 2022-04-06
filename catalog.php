@@ -198,6 +198,9 @@
 
 </style>
 
+<?php
+include 'connect.php';?>
+
 <!DOCTYPE html>
 <html>
   <?php include_once 'header.php';
