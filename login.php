@@ -13,7 +13,11 @@
             icon.innerT = "visibility";
         }
     }
+
 </script>
+
+<style>
+</style>
 
 <?php
     include_once 'header.php';
@@ -43,9 +47,18 @@
                 <div class = "login-button">
                     <button type="submit">LOG IN</button>
                 </div>
+                <div>
+                    <p><?php
+                        if(@$_GET['registered'] == 'true') {
+                            echo 'You have registered successfully.';
+                        }
+                        ?>
+                    </p>
+                </div>
             </form>
         </div>
     </div>
+
 <?php
     include_once 'footer.php';
 ?>
