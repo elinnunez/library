@@ -272,3 +272,8 @@ footer h1{
 .search .search-container button:hover {
     background: #ccc;
 }
+
+.usrdash{
+    display:flex;
+    justify-content: center;
+}
