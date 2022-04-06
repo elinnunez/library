@@ -198,24 +198,6 @@
 
 </style>
 
-<!-- <?php
-  $servername = 'localhost';
-  $username = 'root';
-  $password = '';
-  $dbname = 'team1dbms';   
-  
-  // Creating connection to db
-  $connection = mysqli_connect($servername, $username, $password, $dbname);
-  
-  // Check if connection was successful or not
-  
-  if(!$connection) {
-    die ('Connection unsuccessful : '.mysqli_connect_error());
-  } else {
-    // echo 'Connection Success';
-  }
-?> -->
-
 <!DOCTYPE html>
 <html>
   <?php include_once 'header.php';
