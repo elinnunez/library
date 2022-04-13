@@ -13,15 +13,64 @@
             icon.innerT = "visibility";
         }
     }
-
 </script>
 
 <style>
+    .errors {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        color: red;
+        font-size: 15px;
+    }
 </style>
 
 <?php
     include_once 'header.php';
+    include 'connect.php';
+
+    $errors = array('username'=>'','password'=>'');
+
+    if($_SERVER['REQUEST_METHOD'] == "POST")
+	{
+		$Username = $_POST['Username'];
+		$Password = $_POST['Password'];
+
+		if(!empty($Username) && !empty($Password))
+		{
+
+			//Reads from DB
+			$query = "select * from user where Username = '$Username' limit 1";
+			$result = mysqli_query($con, $query);
+
+			if($result && mysqli_num_rows($result) > 0)
+			{
+				$user_data = mysqli_fetch_assoc($result);
+
+				if (password_verify($Password, $user_data['Password']))
+				{
+					$_SESSION['User_id'] = $user_data['User_id'];
+                    $_SESSION['User_Status'] = $user_data['User_Status'];
+                    $_SESSION['Username'] = $user_data['Username'];
+					header("Location: homepage.php");
+					die;
+				}
+                else{
+                    $errors['password'] = "Password does not match<br/><br/>";
+                }
+			}
+            else{
+                $errors['username'] = "Username does not exist<br/>";
+            }
+		}
+	    else
+		{
+			$errors['username'] = "Fill all fields<br/>";
+		}
+	}
 ?>
+
     <div class="page-content">
         <div class = "login-body">
             <head2>
@@ -29,36 +78,46 @@
                 <link rel="stylesheet" href="style.css">
                 <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
             </head2>
-            <form action="login.inc.php" method="post" class="login-form">
+            <form method="post" class="login-form">
             <h2>LOGIN</h2>
                 <div class = "login-input">
                     <label class="label-single">User Name</label>
-                    <input type="text" name="uname" placeholder="Username/Email..." class="input-single"><br>
+                    <input type="text" name="Username" placeholder="Username..." class="input-single" value="<?php echo isset($_POST['Username']) ? $_POST['Username'] : '' ?>"><br>
+                </div>
+                <div class="errors">
+                        <p>
+                            <?php echo $errors['username'];?>
+                        </p>
                 </div>
                 <div class = "login-input">
                     <label class="label-single">Password</label>
-                    <input type="password" name="password" placeholder="Password..." id="ipassword" class="input-single">
+                    <input type="password" name="Password" placeholder="Password..." id="ipassword" class="input-single">
                     <i><span class="material-icons-outlined" id ="icon" onclick="toggle()">visibility_off</span></i>
+                </div>
+                <div class="errors">
+                        <p>
+                            <?php echo $errors['password'];?>
+                        </p>
                 </div>
                 <div class = "message-logredirect">No Account?</div>
                 <div class = "link-logredirect"> 
                     <li><a href="signup.php">Register Instead</a></li>
                 </div>
+                
+                <div class = "forgot-password">
+                    <li><a href="simple_pw_reset.php">Forgot Your Password?</a></li>
+                </div>
                 <div class = "login-button">
                     <button type="submit">LOG IN</button>
                 </div>
-                <div>
-                    <p><?php
-                        if(@$_GET['registered'] == 'true') {
-                            echo 'You have registered successfully.';
-                        }
-                        ?>
-                    </p>
-                </div>
             </form>
+            <div class = "testing-admin">
+                FOR ADMIN LOGIN<br>
+                USERNAME: ADMIN<br>
+                PASSWORD: Test1234<br>
+            </div>
         </div>
     </div>
-
 <?php
     include_once 'footer.php';
 ?>
