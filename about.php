@@ -1,6 +1,10 @@
 <?php
     include_once 'header.php';
 ?>
+    <head2>
+        <title>About</title>
+        <link rel="stylesheet" href="style.css">
+    </head2>
     <div class="page-content">
         <div class = "test">
             <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor consequat id porta nibh venenatis cras sed felis eget. Ultrices dui sapien eget mi proin. Curabitur vitae nunc sed velit dignissim sodales ut eu sem. Nulla malesuada pellentesque elit eget gravida cum sociis natoque. Arcu vitae elementum curabitur vitae. Arcu non odio euismod lacinia at quis risus sed vulputate. Eleifend quam adipiscing vitae proin sagittis. Eu volutpat odio facilisis mauris. Commodo elit at imperdiet dui accumsan sit. Turpis massa sed elementum tempus egestas sed. In est ante in nibh mauris cursus mattis molestie. Proin sed libero enim sed faucibus turpis in eu mi. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Egestas pretium aenean pharetra magna ac. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. At in tellus integer feugiat.</h1><br>
