@@ -346,6 +346,12 @@
     font-size: 14px;
 }
 
+.forgot-password{
+    margin-left: 10px;
+    font-size: 14px;
+    color: black;
+}
+
 .message-signredirect{
     margin-left: 10px;
     font-size: 14px;

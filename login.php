@@ -103,6 +103,10 @@
                 <div class = "link-logredirect"> 
                     <li><a href="signup.php">Register Instead</a></li>
                 </div>
+                
+                <div class = "forgot-password">
+                    <li><a href="simple_pw_reset.php">Forgot Your Password?</a></li>
+                </div>
                 <div class = "login-button">
                     <button type="submit">LOG IN</button>
                 </div>
