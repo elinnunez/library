@@ -20,7 +20,7 @@ http://18.207.206.17/library
 
 ## Triggers
 
-## Feaatures
+## Features
 ### Admin Panel
 -  Dashboard holds reports and general statistics about the website along with a audit log listing any edits done to the items within the database
 - Book/User pages use crud operations and search functionality to display data of each of their respective table
