@@ -94,9 +94,15 @@ library
 └─ validate_signup.php
 ```
 
-## Installation Instructions
-- Install [XAMPP](https://www.apachefriends.org/download.html)
-- Create empty directory 
+## Installation Instructions for Windows localhost
+- Download & Install [XAMPP](https://www.apachefriends.org/download.html)
+- git clone project inside htdocs directory of XAMPP file location 
+- Run XAMPP and click Start on Apache & MySQL
+- Go to  http://127.0.0.1/phpmyadmin and create new database named library
+- Import the sql dump file that's inside sql folder into the newly created database
+- Open connect.php file and edit file line 3 as `$con=new mysqli('localhost', 'root', '', 'library');` and save.
+- Open browser and enter directory: http://127.0.0.1:8080/
+- Project should now run on local server
 
 ## Application Usage
 
