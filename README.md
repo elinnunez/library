@@ -95,6 +95,9 @@ library
 ```
 
 ## Installation Instructions
+- Install [XAMPP](https://www.apachefriends.org/download.html)
+
+## Application Usage
 
 ## Team Members
 - Hunter Jerry McPherson: [Hunter6058](https://github.com/Hunter6058)
