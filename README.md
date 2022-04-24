@@ -10,7 +10,7 @@ request/hold items.
 ## File Description
 For this project, our team used MYSQL for the database build, PHP for both server side scripting and front end design, AWS to host our website as well as XAMPP for the sql dump hosting.
 
-## Hosted Site
+## Site Link
 http://18.207.206.17/library
 
 ## Roles
@@ -96,6 +96,7 @@ library
 
 ## Installation Instructions
 - Install [XAMPP](https://www.apachefriends.org/download.html)
+- Create empty directory 
 
 ## Application Usage
 
