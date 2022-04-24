@@ -8,13 +8,7 @@
 - Frank N Bui: [franknhat](https://github.com/franknhat)
 
 ## Project Description
-A student and faculty can borrow
-books/media/devices/etc. Different limits for number of items that a student
-and faculty can borrow. Also, the number of days will be different in case of
-students and teachers. Each item will have an ID. Consider the library may
-have multiple copies of the same item. Details of fines due when item are not
-returned on time should also be considered. Need the capability to put
-request/hold items.
+The goal in building this project was to create an online library database management system with different functionalities. There are 3 types of accounts, (users, staff, admin). The accounts have different levels of accessibility. All users may request/hold items from the catalog database and there is also different maximum requests/orders and loan periods allowed for different types of users. Users are allowed maximum of 3 orders with 1 week loan periods and staff/admins are allowed 5 maximum orders with 2 week loan periods.
 
 ## File Description
 For this project, our team used MYSQL for the database build, PHP for both server side scripting and front end design, AWS to host our website as well as XAMPP for the sql dump hosting.
