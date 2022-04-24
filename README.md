@@ -1,3 +1,12 @@
+# COSC 3380 Library Database
+
+### Team 1 Members
+- Hunter Jerry McPherson: [Hunter6058](https://github.com/Hunter6058)
+- Rodolfo Jose Chavez: [RodolfoChavez22](https://github.com/RodolfoChavez22)
+- Elinnoel S Nunez: [elinnunez](https://github.com/elinnunez)
+- Justin Isaac Jose: [jjugsting](https://github.com/jjugstin)
+- Frank N Bui: [franknhat](https://github.com/franknhat)
+
 ## Project Description
 A student and faculty can borrow
 books/media/devices/etc. Different limits for number of items that a student
@@ -105,10 +114,3 @@ library
 - Project should now run on local server
 
 ## Application Usage
-
-## Team Members
-- Hunter Jerry McPherson: [Hunter6058](https://github.com/Hunter6058)
-- Rodolfo Jose Chavez: [RodolfoChavez22](https://github.com/RodolfoChavez22)
-- Elinnoel S Nunez: [elinnunez](https://github.com/elinnunez)
-- Justin Isaac Jose: [jjugsting](https://github.com/jjugstin)
-- Frank N Bui: [franknhat](https://github.com/franknhat)
