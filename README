@@ -1,7 +1,6 @@
 ### Project Structure
-
 ```
-library6
+library
 ├─ .htaccess
 ├─ about.php
 ├─ admin
@@ -58,124 +57,7 @@ library6
 ├─ header.php
 ├─ homepage.php
 ├─ img
-│  ├─ 625cdd05c03d22.54205787.jpg
-├─ index.php
-├─ library.sql
-├─ login.php
-├─ logout.php
-├─ modal.js
-├─ reserve.php
-├─ signup.php
-├─ style.css
-├─ user
-│  └─ userdashboard.php
-└─ validate_signup.php
-
-```
-```
-library6
-├─ .htaccess
-├─ about.php
-├─ admin
-│  ├─ adminpanel.php
-│  ├─ astyle.css
-│  ├─ book
-│  │  ├─ add.php
-│  │  ├─ delete.php
-│  │  ├─ restore.php
-│  │  └─ update.php
-│  ├─ books.php
-│  ├─ dashboard.php
-│  ├─ disk
-│  │  ├─ add.php
-│  │  ├─ delete.php
-│  │  ├─ restore.php
-│  │  └─ update.php
-│  ├─ disks.php
-│  ├─ electronic
-│  │  ├─ add.php
-│  │  ├─ delete.php
-│  │  ├─ restore.php
-│  │  └─ update.php
-│  ├─ electronics.php
-│  ├─ journal
-│  │  ├─ add.php
-│  │  ├─ delete.php
-│  │  ├─ restore.php
-│  │  └─ update.php
-│  ├─ journals.php
-│  ├─ key
-│  │  ├─ author.php
-│  │  ├─ brand.php
-│  │  ├─ genre.php
-│  │  ├─ publisher.php
-│  │  └─ type.php
-│  ├─ loans.php
-│  ├─ reports.php
-│  ├─ request.php
-│  ├─ requests
-│  │  └─ requestchange.php
-│  ├─ restore.php
-│  ├─ user
-│  │  ├─ add.php
-│  │  ├─ delete.php
-│  │  ├─ restore.php
-│  │  └─ update.php
-│  └─ users.php
-├─ catalog.php
-├─ connect.php
-├─ edits3.txt
-├─ find.php
-├─ footer.php
-├─ header.php
-├─ homepage.php
-├─ img
-│  ├─ 625cdd05c03d22.54205787.jpg
-│  ├─ 625cde2c577a57.67708401.jpg
-│  ├─ 625cdf1f185989.74909870.jpg
-│  ├─ 625ce0341791b4.90593213.jpg
-│  ├─ 625ce56340ca69.42406756.jpg
-│  ├─ 625ce6afb21af6.75551737.jpg
-│  ├─ 625ce74fef6a04.59989471.jpg
-│  ├─ 625ce883df3376.46758669.jpg
-│  ├─ 625ce898798450.24649300.jpg
-│  ├─ 625ce996981b72.49339773.jpg
-│  ├─ 625cea1ca2f0b8.30587239.jpg
-│  ├─ 625ceac5206f48.65995309.jpg
-│  ├─ 625cebcfb22492.29337007.jpg
-│  ├─ 625cec45d5ebc3.57882395.jpg
-│  ├─ 625ced112d3319.25140723.jpg
-│  ├─ 625cede55f1299.50183818.jpg
-│  ├─ 625cedfc3b6b07.50035979.jpg
-│  ├─ 625cee8088eb02.18369606.jpg
-│  ├─ 625cee8a079ab5.97323824.jpg
-│  ├─ 625ceef559c469.92626031.jpg
-│  ├─ 625cef86844314.79728023.jpg
-│  ├─ 625ceff1ee8996.32217783.jpg
-│  ├─ 625cf06330afb4.76258282.jpg
-│  ├─ 625cf7128f36a2.57116578.jpg
-│  ├─ 625cf7283bc0a0.94699775.jpg
-│  ├─ 625cf80adee0c6.18317775.jpg
-│  ├─ 625cf8faefc7b6.70627098.jpg
-│  ├─ 625cf92d3509f3.58691718.jpg
-│  ├─ 625cfa846049a8.40472684.jpg
-│  ├─ 625cfb25b1f467.69679977.jpg
-│  ├─ 625cfbf153db85.96212530.jpg
-│  ├─ 625cfc1d48f0d3.24950744.jpg
-│  ├─ 625cfcc77d9b41.11826333.png
-│  ├─ 625cfd6698ba12.99024525.jpg
-│  ├─ 625cfde3369336.97788477.jpg
-│  ├─ 625cff300fbc73.65989911.jpg
-│  ├─ 625d04a71d2566.39082208.jpg
-│  ├─ 625d059239f2c0.52707726.jpg
-│  ├─ 625d0670a20a97.40225711.jpg
-│  ├─ 625d07066e2de2.80747259.jpg
-│  ├─ 625d0754127818.48057029.jpg
-│  ├─ 625d542bb36399.66912878.jpg
-│  ├─ 62656cd511b6f7.27511556.jpg
-│  ├─ 62656ce08932f1.30641185.jpg
-│  ├─ 62657922b12c17.34605192.jpg
-│  └─ 6265793169ac61.62391412.jpg
+│  ├─ image.jpg
 ├─ index.php
 ├─ login.php
 ├─ logout.php
