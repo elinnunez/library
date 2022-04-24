@@ -20,7 +20,13 @@ http://18.207.206.17/library
 
 ## Triggers
 
-## Reports
+## Feaatures
+### Admin Panel
+-  Dashboard holds reports and general statistics about the website along with a audit log listing any edits done to the items within the database
+- Book/User pages use crud operations and search functionality to display data of each of their respective table
+- Loans page allows admins/librarians to confirm that a item has been returned and will update the user according to whether they turned in an item on time or not (get a fine if they dont) 
+- Requests tab allows admins/librarians to accept or cancel book requests, if accepted it gets forwarded to the loans page, if it gets cancelled it gets put back in the catalog. 
+- Restore page allows admins to recover any items that were marked for deletion.
 
 
 ## Project Tree Structure
