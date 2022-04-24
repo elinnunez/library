@@ -110,7 +110,7 @@ library
 - Go to  http://127.0.0.1/phpmyadmin and create new database named library
 - Import the sql dump file that's inside sql folder into the newly created database
 - Open connect.php file and edit file line 3 as `$con=new mysqli('localhost', 'root', '', 'library');` and save.
-- Open browser and enter directory: http://127.0.0.1:8080/
+- Open browser and enter directory: http://localhost/library/homepage/
 - Project should now run on local server
 
 ## Application Usage
