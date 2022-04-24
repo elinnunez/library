@@ -1,4 +1,26 @@
-### Project Structure
+## Project Description
+A student and faculty can borrow
+books/media/devices/etc. Different limits for number of items that a student
+and faculty can borrow. Also, the number of days will be different in case of
+students and teachers. Each item will have an ID. Consider the library may
+have multiple copies of the same item. Details of fines due when item are not
+returned on time should also be considered. Need the capability to put
+request/hold items.
+
+## File Description
+For this project, our team used MYSQL for the database build, PHP for both server side scripting and front end design, AWS to host our website as well as XAMPP for the sql dump hosting.
+
+## Hosted Site
+http://18.207.206.17/library
+
+## Roles
+
+## Triggers
+
+## Reports
+
+
+### Project Tree Structure
 ```
 library
 ├─ .htaccess
@@ -71,3 +93,12 @@ library
 │  └─ userdashboard.php
 └─ validate_signup.php
 ```
+
+## Installation Instructions
+
+## Team Members
+- Hunter Jerry McPherson: [Hunter6058](https://github.com/Hunter6058)
+- Rodolfo Jose Chavez: [RodolfoChavez22](https://github.com/RodolfoChavez22)
+- Elinnoel S Nunez: [elinnunez](https://github.com/elinnunez)
+- Justin Isaac Jose: [jjugsting](https://github.com/jjugstin)
+- Frank N Bui: [franknhat](https://github.com/franknhat)
