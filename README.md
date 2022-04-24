@@ -51,7 +51,6 @@ library
 │  └─ users.php
 ├─ catalog.php
 ├─ connect.php
-├─ edits3.txt
 ├─ find.php
 ├─ footer.php
 ├─ header.php
