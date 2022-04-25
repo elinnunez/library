@@ -7,7 +7,7 @@
 - Justin Isaac Jose: [jjugsting](https://github.com/jjugstin)
 
 ## Project Description
-The goal in building this project was to create an online library database management system with different functionalities. There are 3 types of accounts, (users, staff, admin). The accounts have different levels of accessibility. All users may request/hold items from the catalog database and there is also different maximum requests/orders and loan periods allowed for different types of users.
+The goal in building this project was to create an online library database management system with different functionalities such as item requests, item cancellations, create, read, update, and delete operations. There are 3 types of accounts, (users, staff, admin) that have different levels of accessibility. All users may request/hold items from the catalog database and there is also different maximum requests/orders and loan periods allowed for different types of users.
 
 ## File Description
 For this project, our team used MYSQL for the database build, PHP for both server side scripting and front end design, AWS to host our website as well as XAMPP for the sql dump hosting.
